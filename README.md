@@ -28,6 +28,7 @@
  ```
  docker-compose exec web python manage.py collectstatic --no-input
  ```
+
 ### Как развернуть проект на боевом сервере:
  - установка соединения с сервером
  ```
