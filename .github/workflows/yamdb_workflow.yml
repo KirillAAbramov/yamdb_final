@@ -44,7 +44,7 @@ jobs:
           context: ./api_yamdb
           file: ./api_yamdb/Dockerfile
           push: true
-          tags: akadocker90/yamdb_dh:v1
+          tags: akadocker90/yamdb_final:v1
 
   deploy:
     if: github.ref == 'refs/heads/master'

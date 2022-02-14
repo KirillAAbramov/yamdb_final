@@ -9,7 +9,7 @@ services:
       - .env
 
   web:
-    image: akadocker90/yamdb_dh:v1
+    image: akadocker90/yamdb_final:v1
     restart: always
     volumes:
       - static_value:/app/static/
